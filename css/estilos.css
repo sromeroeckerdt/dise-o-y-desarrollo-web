@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    width: 100%;
+    background-color: rgba(204, 125, 124, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cormorant Garamond';
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 40px 70px;
+    font-size: 15px; 
+}
+.navbar li a:hover{
+    color: #513A45;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar img{
+    width: 125px;
+}
+.seccion1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 450px;
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(204, 125, 124, 1);
+}
+.seccion1 img{
+    margin-right: 60px;
+    width: 300px;
+    height: 350px;
+    border-radius: 100px;
+    border: 0px solid #D9D9D9;
+    display: flex;
+}
+.seccion1 #bienvenido{
+    margin-bottom: 50px;
+    width: 310.965px;
+    height: 117.088px;
+}
+.seccion1 button{
+    margin: 40px 0 0 100px;
+    border-style: hidden;
+    width: 110px;
+    height: 30px;
+    font-family: 'Cormorant Garamond';
+    color:#F1E2DE;
+    background-color: rgba(195, 106, 130, 1);
+    border-radius: 100px;
+}
+.seccion1 button a{
+    text-decoration: none;
+    color: #F1E2DE;
+}
+.seccion1 button a:hover{
+    color: #513A45;
+}
+.seccion2{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 550px;
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(255, 192, 203, 1)
+}
+.seccion2 div{
+    padding: 20px 10px;
+    margin: auto;
+    width: 40%;
+}
+.seccion2 div img{
+    width: 300px;
+    height: 325px;
+}
+.seccion2 h2{
+    justify-content: space-between;
+    font-family: 'Dancing Script'; font-size: 40px;
+    margin: 0 60px 50px 30px;
+}
+.seccion2 p{
+    justify-content: space-between;
+}
+.seccion3{
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(204, 125, 124, 1);
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.seccion3 h2{
+    justify-content: space-between;
+    font-family: 'Dancing Script'; font-size: 40px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+.seccion3 div{
+    align-items: center;
+    margin: 80px 5px;
+}
+.seccion3 div p{
+    margin-bottom: 5px;
+}
+.seccion3 div img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seccion3 div button{
+    margin: 5px 65px;
+    border-style: hidden;
+    width: 110px;
+    height: 30px;
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(195, 106, 130, 1);
+    border-radius: 100px; 
+}
+.seccion3 div button a{
+    text-decoration: none;
+    color:#F1E2DE;
+}
+.seccion3 div button a:hover{
+    color: #513A45;
+}
+.seccion4{
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(255, 192, 203, 1);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.seccion4 h2{
+    justify-content: space-between;
+    font-family: 'Dancing Script'; font-size: 40px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+.seccion4 div img{
+        width: 150px;
+        height: 150px;
+        text-align: justify;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+}
+.seccion4 div p{
+    font-size: 18px;
+    margin: 30px;
+    text-align: center;
+}
+.seccion5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #F1E2DE;
+    font-family: 'Cormorant Garamond';
+    background-color: rgba(204, 125, 124, 1);
+    height: 500px;
+}
+.seccion5 .formulario h4{
+    margin: 20px 40px;
+}
+.seccion5 .formulario input textarea{
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.seccion5 .formulario input textarea a:hover{
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.75), 0px 4px 4px 0px rgba(0, 0, 0, 0.75) inset;
+}
+.seccion5 .formulario{
+    margin: 20px;
+}
+.seccion5 button{
+        border-style: hidden;
+        width: 110px;
+        height: 30px;
+        font-family: 'Cormorant Garamond';
+        background-color: rgba(195, 106, 130, 1);
+        border-radius: 100px;
+    }
+.seccion5 button a{
+    text-decoration: none;
+    color:#F1E2DE;
+}
+.seccion5 button a:hover{
+    color: #513A45;
+}
+.seccion5 .redes{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.seccion5 .redes a{
+    margin: 10px;
+}
+.piedepagina{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: #F1E2DE;
+    background-color: rgba(81, 58, 69, 1);
+}
+.piedepagina h5{
+    margin: 0 0 0 10px;
+}
+
+@media (max-width: 550px) {
+img{
+    flex: 100%;
+    max-width: 100%;
+}
+div{
+    width: 100%;
+    height: auto;
+    display: inline;
+    align-items: center;
+}
+.cabecera .navbar ul li{
+margin-top: -35px;
+margin-left: 135px;
+margin-bottom: -35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/*.seccion1 div img{
+    margin-right: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.seccion1 img{
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;} 
+.seccion1 button{
+    align-items: center;
+    display: inline;
+}*/
+#bienvenido{
+    display: none;}
+.seccion1{
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.seccion1 button{
+    text-align: center;
+    margin: 20px;
+}
+.seccion1 div img{
+    margin: 10px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;}
+.seccion2{
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.seccion2 h2{
+    text-align: center;
+    margin: 20px;
+}
+.seccion2 div{
+    margin: 10px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;}
+.seccion3{
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+}
+.seccion3 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.seccion3 div{
+    margin: 20px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.seccion4{
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.seccion4 h2{
+    text-align: center;
+    margin-right: 40px;
+}
+.seccion4 div{
+    margin: 20px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.seccion5{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+}
+.seccion5 .formulario{
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+}
+.seccion5 .redes{
+    margin: 20px 0px 20px -20px;
+}
+}
